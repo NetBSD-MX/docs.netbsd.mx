@@ -12,9 +12,9 @@ Contents:
    :maxdepth: 2
    
    instalacion-red
-   accesspoint-dualstack
    pkgsrc-binarios
    bozohttpd
+   accesspoint-dualstack
    dancer
    dhcp-server
    media
