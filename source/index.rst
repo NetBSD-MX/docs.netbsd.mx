@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Documentacion NetBSD.MX's documentation!
-===================================================
+Proyecto de Documentacion para NetBSD Mexico
+============================================
 
 Contents:
 
@@ -21,6 +21,7 @@ Contents:
    wpa
    pppoe
    modular-xorg-pkgsrc
+   nginx-php
 
 
 Indices and tables
