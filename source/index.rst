@@ -22,6 +22,7 @@ Contents:
    pppoe
    modular-xorg-pkgsrc
    nginx-php
+   postgresql
 
 
 Indices and tables
