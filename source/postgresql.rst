@@ -40,7 +40,7 @@ pkgsrc_ coloca los scripts de inicio en */usr/pkg/share/examples/rc.d/*, de ahi 
 */usr/pkg/share/examples/rc.d/pgsql a /etc/rc.d/*
 
 Iniciando PostgreSQL
-####################
+--------------------
 
 ::
 
@@ -58,7 +58,7 @@ y la base de datos postgres
     postgres=#
 
 Autenticacion
-#############
+-------------
 
 El archivo */usr/pkg/pgsql/data/pg_hba.conf* contiene la configuracion para establecer la conexion
 al motor de base de datos y es el archivo de configuracion del cliente, el cual nos permite elegir
