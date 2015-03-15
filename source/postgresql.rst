@@ -33,7 +33,7 @@ los servicios automaticamente.
 
 ::
 
-    postgresql=YES
+    pgsql=YES
     pgsql_flags="-l"
 
 pkgsrc_ coloca los scripts de inicio en */usr/pkg/share/examples/rc.d/*, de ahi que tenemos que copiar
