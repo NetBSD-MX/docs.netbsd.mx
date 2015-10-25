@@ -51,10 +51,10 @@ Pasos
 Con estos sencillos pasos, estaras usando pkgsrc en tu sistema operativo OSX y sentirte en casa, instalar
 paquetes una vez actualizado la base de datos es muy sencillo, tenemos un tutorial sobre pkgin en este sitio.
 
-Screenshot
-----------
+Captura de pantalla.
+-------------------
 
-.. image:: https://www.dropbox.com/s/se1k17tl77ix538/Screenshot%202015-05-01%2000.00.32.png
+.. image:: _static/pkgsrc-osx.png
 
 
 .. _NetBSD: http://www.netbsd.org

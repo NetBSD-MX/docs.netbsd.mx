@@ -23,6 +23,7 @@ Contents:
    modular-xorg-pkgsrc
    nginx-php
    postgresql
+   pkgsrc-macosx
 
 
 Indices and tables
