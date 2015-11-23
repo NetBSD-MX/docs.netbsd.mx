@@ -77,7 +77,7 @@ la siguiente linea en */etc/inetd.conf*
 
 ::
 
-  http stream tcp  nowait:600 _httpd /usr/libexec/httpd httpd -v /var/vroot /var/www
+    http stream tcp  nowait:600 _httpd /usr/libexec/httpd httpd -v /var/vroot /var/www
 
 Esta linea indica httpd_ que lea en el directorio /var/vroot en busca de hosts virtuales
 Ejemplo:
