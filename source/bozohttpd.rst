@@ -70,6 +70,25 @@ linea de comandos:
 Apuntamos nuestro browser hacia **http://localhost** para probar nuestra
 configuracion.
 
+Soporte virtualhosts
+--------------------
+Para usar un servidor httpd_ con soporte para hosts virtuales, es necesario modificar 
+la siguiente linea en */etc/inetd.conf*
+
+::
+
+  http stream tcp  nowait:600 _httpd /usr/libexec/httpd httpd -v /var/vroot /var/www
+
+Esta linea indica httpd_ que lea en el directorio /var/vroot en busca de hosts virtuales
+Ejemplo:
+
+::
+    $ mkdir /var/vroot/netbsd.mx
+    $ ln -s /var/vroot/netbsd.mx /var/vroot/netbsd.org.mx
+    $ mkdir /var/vroot/docs.netbsd.mx
+
+Ambos netbsd.mx y netbsd.org.mx apuntaran al mismo directorio.
+
 Parametros adicionales
 ----------------------
 
@@ -78,16 +97,6 @@ Parametros adicionales
   -c habilita el uso de scripts cgi, bajo el directorio /var/www/cgi-bin
   -x Permite el indizado de directorios dentro de un directorio particular dentro del DocumentRoot (/var/www en este caso)
   -v Habilita el uso de VirtualHost o servidores virtuales dentro de nuestro DocumentRoot.
-
-Ejemplos
---------
-::
-
-  http stream tcp  nowait:600 _httpd /usr/libexec/httpd httpd -v /var/vroot /var/www
-  Inicia httpd(8) via inetd con Vhosts dentro de /var/vroot
-
-  httpd -C .php /usr/pkg/bin/php /var/www
-  Inicia httpd(8) con soporte php dentro de /var/www/
 
 Autenticación
 -------------
