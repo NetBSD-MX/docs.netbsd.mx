@@ -52,7 +52,7 @@ Con estos sencillos pasos, estaras usando pkgsrc en tu sistema operativo OSX y s
 paquetes una vez actualizado la base de datos es muy sencillo, tenemos un tutorial sobre pkgin en este sitio.
 
 Captura de pantalla.
--------------------
+--------------------
 
 .. image:: _static/pkgsrc-osx.png
 
