@@ -73,19 +73,20 @@ configuracion.
 Soporte virtualhosts
 --------------------
 Para usar un servidor httpd_ con soporte para hosts virtuales, es necesario modificar 
-la siguiente linea en */etc/inetd.conf*
+la siguiente linea en */etc/inetd.conf*.
 
 ::
 
-    http stream tcp  nowait:600 _httpd /usr/libexec/httpd httpd -v /var/vroot /var/www
+  http stream tcp  nowait:600 _httpd /usr/libexec/httpd httpd -v /var/vroot /var/www
 
 Esta linea indica httpd_ que lea en el directorio /var/vroot en busca de hosts virtuales
 Ejemplo:
 
 ::
-    $ mkdir /var/vroot/netbsd.mx
-    $ ln -s /var/vroot/netbsd.mx /var/vroot/netbsd.org.mx
-    $ mkdir /var/vroot/docs.netbsd.mx
+
+  $ mkdir /var/vroot/netbsd.mx
+  $ ln -s /var/vroot/netbsd.mx /var/vroot/netbsd.org.mx
+  $ mkdir /var/vroot/docs.netbsd.mx
 
 Ambos netbsd.mx y netbsd.org.mx apuntaran al mismo directorio.
 
