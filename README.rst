@@ -19,6 +19,7 @@ con Sphynx, si deseas colaborar, ten en cuenta lo siguiente:
 5.- clonar los fuentes de la documentacion ubicados en Github
 
 ::
+
   $ git clone https://github.com/NetBSD.MX/docs.netbsd.mx.git
 
 
