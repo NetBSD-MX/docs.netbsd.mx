@@ -45,7 +45,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Documentacion NetBSD.MX'
-copyright = u'2014, varios'
+copyright = u'2017, Varios amigos, amantes de NetBSD'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -110,7 +110,7 @@ html_logo="_static/NetBSD.png"
 
 html_theme_options = {
 # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "Documentacion NetBSD Mexico ",
+    'navbar_title': "Documentacion NetBSD español",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Site",
