@@ -5,11 +5,11 @@ El siguiente proyecto fue motivado por amigos aficionados y usuarios del
 sistema Operativo NetBSD.
 
 La documentacion esta escrita en formato .rst (Restructured Text Format) y generada
-con Sphynx, si deseas colaborar, ten en cuenta lo siguiente:
+con sphinx, si deseas colaborar, ten en cuenta lo siguiente:
 
 1. Python 2.7+ o 3.x debe trabajar. 
 2. pip (python package manager ) Si tienes Python 2.7.9 en adelante, seguro ya esta instalado.
-3. sphinx *http://www.sphinx-doc.org* (Software escrito en python para proyectos de documentacion.
+3. Sphinx *http://www.sphinx-doc.org* (Software escrito en python para proyectos de documentacion.
 4. Instalar el tema sphinx_bootstrap_theme.
 
 ::
@@ -24,10 +24,9 @@ con Sphynx, si deseas colaborar, ten en cuenta lo siguiente:
 
 
 El archivo conf.py localizado en el subdiretorio source/ ya contiene la configuracion correcta
-para usar el tema y ha sido personalizado para usar un poco los colores que el proyecto NetBSD
-usa.
+para usar el tema y ha sido personalizado para NetBSD.
 
-Sphynx usa Gmake para generar el sitio, si usas NetBSD tendras que instalarlo por separado, NetBSD usa make y bmake.
+Sphinx usa Gmake para generar el sitio, si usas NetBSD tendras que instalarlo por separado, NetBSD usa make y bmake.
 
 Asegurate de comentar los cambios para conocer los aportes.
 
