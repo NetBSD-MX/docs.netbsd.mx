@@ -39,7 +39,7 @@ httpd_\(8) se inicia via inetd_\(8), para ello editamos lo siguiente:
 
 Descomentar la linea;
 
-``http            stream  tcp     nowait:600      _httpd  /usr/libexec/httpd      httpd /var/www ``
+``http  stream  tcp     nowait:600  _httpd  /usr/libexec/httpd  httpd /var/www``
 
 La linea anterior habilita el inicio de httpd_ via inetd, el
 directorio /var/www es la ubicacion de nuestros archivos html o cgi,

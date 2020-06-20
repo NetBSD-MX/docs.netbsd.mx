@@ -9,7 +9,7 @@ Instalación
 
 Instalamos el servidor **lighttpd**:
 
-``pkg_add -v lighttpd ``
+``pkg_add -v lighttpd``
 
 Instalamos los módulos de **Perl** con **CPAN** necesarios (algunos de
 ellos no están disponibles como paquetes binarios):
